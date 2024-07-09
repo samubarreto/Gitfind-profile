@@ -65,11 +65,3 @@ a {
 .small-gap {
   gap: 8px;
 }
-
-.not-found-txt {
-  margin: 0 0 15px 0;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-  word-break: break-all;
-  padding: 0 15px;
-}

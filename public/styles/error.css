@@ -1,0 +1,16 @@
+.user-error-txt {
+  margin: 0 0 15px 0;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-all;
+  padding: 0 15px;
+}
+
+.user-error-link {
+  color: var(--cor-azul-link);
+  cursor: pointer;
+}
+
+.user-error-link:hover {
+  text-decoration: underline;
+}

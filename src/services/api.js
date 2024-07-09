@@ -11,7 +11,6 @@ export function getUserByUsername(searchedUsername) {
   } else {
     return fetch(`${BASE_URL}${searchedUsername}`);
   }
-
 }
 
 export function getReposByUsername(searchedUsername) {
