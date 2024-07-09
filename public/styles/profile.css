@@ -1,0 +1,54 @@
+.profile-container {
+  overflow: hidden;
+  background-color: var(--cor-cinza-main-transparente);
+  border-top: 3px solid var(--cor-cinza-escuro);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  position: sticky;
+  top: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15px;
+  width: 100%;
+}
+
+.profile-stats {
+  padding: 15px;
+}
+
+.profile-stats * {
+  margin: 0;
+  padding: 0;
+}
+
+.profile-at,
+.profile-follows-followers {
+  color: var(--cor-cinza-claro);
+}
+
+.profile-follows-followers {
+  font-size: .75rem;
+}
+
+.profile-bio {
+  font-size: .9rem;
+  font-weight: 50;
+}
+
+.profile-img {
+  object-fit: cover;
+  min-width: 120px;
+  min-height: 120px;
+  max-width: 120px;
+  max-height: 120px;
+  border-radius: 50%;
+  border: solid 3px var(--cor-cinza-escuro);
+  transition: all .3s;
+}
+
+.profile-img:hover {
+  transform: scale(1.05);
+  transition: all .15s;
+}

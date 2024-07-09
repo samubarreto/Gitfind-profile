@@ -1,0 +1,15 @@
+:root {
+  --cor-quase-branco: #cdcdcd;
+  --cor-branco: #fff;
+  --cor-preto: #000;
+  --cor-cinza-main: #222222;
+  --cor-cinza-main-transparente: rgba(34, 34, 34, .5);
+  --cor-cinza-main-transparente-escuro: rgba(34, 34, 34, .95);
+  --cor-cinza-escuro: #1b1b1b;
+  --cor-cinza-claro: #636363;
+  --cor-cinza-claro-transparente: rgba(99, 99, 99, .35);
+  --cor-cinza-view: #8d96a0;
+  --cor-azul-link: #4493f8;
+  --cor-azul-link-fundo: #131c2f;
+  --cor-azul-link-fundo-2: #1F6FEB;
+}

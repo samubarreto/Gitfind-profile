@@ -1,0 +1,13 @@
+header {
+  position: sticky;
+  top: 0;
+  background-color: var(--cor-cinza-claro-transparente);
+  padding: 15px 30px;
+  text-align: start;
+  z-index: 10;
+  font-size: .8rem;
+  border-bottom: 3px solid var(--cor-cinza-escuro);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  min-height: 70px;
+}

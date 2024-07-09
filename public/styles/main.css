@@ -1,0 +1,22 @@
+main,
+.stats-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100dvw;
+}
+
+main {
+  margin: 0 0 30px 0;
+}
+
+.stats-container {
+  border: solid 3px var(--cor-cinza-escuro);
+  border-top: none;
+  border-right: none;
+  border-bottom-left-radius: 15px;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+}
