@@ -4,6 +4,7 @@
   <summary>
     Aviso
   </summary>
+
 ###### Gere um token de api privado [aqui](https://github.com/settings/tokens)
 
 ###### Vá para src\services\api.js e cole o TOKEN gerado na variável TOKEN, por gentileza
