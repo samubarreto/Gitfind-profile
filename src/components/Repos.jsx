@@ -47,7 +47,7 @@ export default function Repos({ getSearch }) {
                 <span className="repo-others">·</span>
                 <p className="repo-visibility">{repo.visibility}</p>
                 <span className="repo-others">·</span>
-                <p className="repo-others">{repo.language ? repo.language : "no lang"}</p>
+                <p className="repo-others">{repo.language ? repo.language : "no code"}</p>
                 <span className="repo-others">·</span>
                 <p className="repo-others">
                   forks: {repo.forks}

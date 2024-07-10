@@ -22,7 +22,7 @@ export default function Search({ setSearch }) {
           onKeyDown={handleKeyDown}
         />
         <button className="search-button" onClick={() => setSearch(searchInput)}>
-          Buscar 🔍
+          Find 🔍
         </button>
       </div>
 
